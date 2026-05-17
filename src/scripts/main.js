@@ -19,5 +19,5 @@ const average = total / populations.length;
 document.querySelector('.total-population').textContent =
   total.toLocaleString();
 
-document.querySelector('.aveditrage-population').textContent =
+document.querySelector('.average-population').textContent =
   Math.round(average).toLocaleString();
